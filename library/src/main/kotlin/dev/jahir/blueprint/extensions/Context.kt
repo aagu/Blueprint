@@ -14,6 +14,18 @@ fun Context.drawableRes(name: String): Int =
         0
     }
 
+@DrawableRes
+fun Context.drawableOrMipmapRes(name: String): Int =
+    try {
+        var res = resources.getIdentifier(name, "drawable", packageName)
+        if (res == 0) {
+            res = resources.getIdentifier(name, "mipmap", packageName)
+        }
+        res
+    } catch (e: Exception) {
+        0
+    }
+
 internal fun Context.getLocalizedName(packageName: String, defaultName: String): String {
     var appName: String? = null
     try {

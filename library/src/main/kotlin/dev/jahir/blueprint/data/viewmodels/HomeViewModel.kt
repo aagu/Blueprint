@@ -11,7 +11,7 @@ import dev.jahir.blueprint.R
 import dev.jahir.blueprint.data.models.DefHomeItem
 import dev.jahir.blueprint.data.models.HomeItem
 import dev.jahir.blueprint.data.models.Icon
-import dev.jahir.blueprint.extensions.drawableRes
+import dev.jahir.blueprint.extensions.drawableOrMipmapRes
 import dev.jahir.blueprint.ui.fragments.HomeFragment
 import dev.jahir.frames.extensions.context.drawable
 import dev.jahir.frames.extensions.context.stringArray
@@ -45,7 +45,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         if (iconsPreviewList.isEmpty() || force) {
             val nextIcons = ArrayList<Icon>()
             context.stringArray(R.array.icons_preview).filter { it.hasContent() }.forEach {
-                nextIcons.add(Icon(it, context.drawableRes(it)))
+                nextIcons.add(Icon(it, context.drawableOrMipmapRes(it)))
             }
             iconsPreviewData.postValue(nextIcons.distinctBy { it.name }.shuffled())
         }

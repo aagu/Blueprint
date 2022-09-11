@@ -17,7 +17,7 @@ import dev.jahir.blueprint.data.requests.RequestStateManager.getRequestState
 import dev.jahir.blueprint.extensions.InstalledAppsComparator
 import dev.jahir.blueprint.extensions.blueprintFormat
 import dev.jahir.blueprint.extensions.clean
-import dev.jahir.blueprint.extensions.drawableRes
+import dev.jahir.blueprint.extensions.drawableOrMipmapRes
 import dev.jahir.blueprint.extensions.getLocalizedName
 import dev.jahir.frames.extensions.context.getAppName
 import dev.jahir.frames.extensions.context.integer
@@ -36,6 +36,8 @@ import org.xmlpull.v1.XmlPullParser
 class RequestsViewModel(application: Application) : AndroidViewModel(application) {
 
     var requestsCallback: RequestCallback? = null
+
+    private val componentInfoPrefixLength = "ComponentInfo{".length
 
     private val themedComponentsData: MutableLiveData<ArrayList<String>> by lazyMutableLiveData()
     private val themedComponents: ArrayList<String>
@@ -60,12 +62,12 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
             val drawable = parser.getAttributeValue(null, "drawable").orEmpty()
 
             if (component.hasContent() && !component.startsWith(":")) {
-                val actualComponent = component.substring(14, component.length - 1)
+                val actualComponent = component.substring(componentInfoPrefixLength, component.length - 1)
                 if (actualComponent.hasContent() && !actualComponent.startsWith("/")
                     && !actualComponent.endsWith("/")) {
                     if (debug) {
                         if (drawable.hasContent()) {
-                            val res = context.drawableRes(drawable)
+                            val res = context.drawableOrMipmapRes(drawable)
                             if (res == 0)
                                 Log.w(
                                     context.getAppName(),
@@ -143,7 +145,7 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
 
             val packagesList = try {
                 context.packageManager.queryIntentActivities(
-                    Intent("android.intent.action.MAIN").addCategory("android.intent.category.LAUNCHER"),
+                    Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
                     PackageManager.GET_RESOLVED_FILTER
                 )
             } catch (e: Exception) {

@@ -11,7 +11,7 @@ import dev.jahir.blueprint.data.models.Icon
 import dev.jahir.blueprint.data.models.IconsCategory
 import dev.jahir.blueprint.extensions.blueprintFormat
 import dev.jahir.blueprint.extensions.clean
-import dev.jahir.blueprint.extensions.drawableRes
+import dev.jahir.blueprint.extensions.drawableOrMipmapRes
 import dev.jahir.frames.extensions.context.boolean
 import dev.jahir.frames.extensions.context.getAppName
 import dev.jahir.frames.extensions.context.stringArray
@@ -61,7 +61,7 @@ class IconsCategoriesViewModel(application: Application) : AndroidViewModel(appl
                             } else if (tag == "item") {
                                 if (category != null) {
                                     val iconName = parser.getAttributeValue("drawable").orEmpty()
-                                    val iconRes = context.drawableRes(iconName)
+                                    val iconRes = context.drawableOrMipmapRes(iconName)
                                     if (iconRes != 0) {
                                         category.addIcon(
                                             Icon(iconName.clean().blueprintFormat(), iconRes)
@@ -93,7 +93,7 @@ class IconsCategoriesViewModel(application: Application) : AndroidViewModel(appl
                     context.stringArray(
                         context.resources.getIdentifier(filter, "array", context.packageName)
                     ).forEach { iconName ->
-                        val iconRes = context.drawableRes(iconName)
+                        val iconRes = context.drawableOrMipmapRes(iconName)
                         if (iconRes != 0) {
                             icons.add(Icon(iconName.clean().blueprintFormat(), iconRes))
                         } else {
