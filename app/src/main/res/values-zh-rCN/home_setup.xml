@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+    <!-- These arrays are for the list of apps or links in main section. -->
+    <string-array name="home_list_titles" tools:ignore="InconsistentArrays">
+        <item>Blueprint</item>
+    </string-array>
+    <string-array name="home_list_descriptions" tools:ignore="InconsistentArrays">
+        <item>本图标包所用模板</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="credits_descriptions" tools:ignore="InconsistentArrays">
+        <item>本图标包作者</item>
+    </string-array>
+
+    <string-array name="credits_buttons" tools:ignore="InconsistentArrays">
+        <item>Github|酷安</item>
+    </string-array>
+</resources>

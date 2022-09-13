@@ -2,7 +2,5 @@
 <resources>
     <version title="v1.0.0" />
     <item text="Initial Changelog" />
-    <item text="Bullet point here" />
-    <item text="More points" />
     <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>

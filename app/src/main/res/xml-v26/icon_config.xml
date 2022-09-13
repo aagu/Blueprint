@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is for Motorola Launcher -->
+<resources>
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="appicon_com_android_dialer" />
+    <item component="ComponentInfo{com.motorola.cn.notes/com.motorola.cn.notes.MainActivity}" drawable="appicon_com_motorola_cn_notes" />
+    <item component="ComponentInfo{com.motorola.cn.compass/com.motorola.cn.compass.CompassActivity}" drawable="appicon_com_motorola_cn_compass" />
+    <item component="ComponentInfo{com.motorola.deviceguard/com.motorola.deviceguard.portal.activity.PortalActivityt}" drawable="appicon_com_motorola_deviceguard" />
+    <item component="ComponentInfo{com.lenovotab.health/com.lenovotab.health.ui.HeartRateMainActivity}" drawable="appicon_com_lenovotab_health" />
+    <item component="ComponentInfo{com.motorola.cn.lrhealth/com.motorola.cn.lrhealth.SplashActivity}" drawable="appicon_com_motorola_cn_lrhealth" />
+    <item component="ComponentInfo{com.motorola.cn.gallery/com.motorola.cn.gallery.app.GalleryActivity}" drawable="appicon_com_motorola_cn_gallery" />
+    <item component="ComponentInfo{com.motorola.cn.recorder/com.motorola.cn.recorder.SoundRecorder}" drawable="appicon_com_motorola_cn_recorder" />
+    <item component="ComponentInfo{com.motorola.audiorecorder/com.motorola.audiorecorder.ui.main.MainActivity}" drawable="appicon_com_motorola_cn_recorder" />
+    <item component="ComponentInfo{com.lenovo.club.app/com.lenovo.club.app.page.MainActivity}" drawable="appicon_com_lenovo_club_app" />
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="appicon_clock" />
+    <item component="ComponentInfo{com.motorola.cn.deskclock/com.motorola.cn.deskclock.DeskClock}" drawable="appicon_clock" />
+    <calendar component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" prefix="appicon_calendar_" />
+    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="appicon_calendar_" />
+    <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="appicon_calendar_" />
+    <item component="ComponentInfo{com.motorola.cn.calculator/com.motorola.cn.calculator.Calculator}" drawable="appicon_com_motorola_cn_calculator" />
+    <item component="ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}" drawable="appicon_com_android_messaging" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="appicon_com_android_contacts" />
+    <item component="ComponentInfo{com.motorola.moto/com.motorola.motorefresh.feature.herocontent.MotoHeroActivity}" drawable="appicon_com_motorola_moto" />
+    <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="appicon_com_motorola_camera3" />
+    <item component="ComponentInfo{com.lenovo.menu_assistant/com.lenovo.menu_assistant.MainEntryActivity}" drawable="appicon_com_lenovo_menu_assistant" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="appicon_com_android_settings" />
+    <item component="ComponentInfo{com.zui.filemanager/com.zui.filemanager.MainActivity}" drawable="appicon_com_zui_filemanager" />
+    <item component="ComponentInfo{com.motorola.genie/com.motorola.genie.main.MainActivity}" drawable="appicon_com_motorola_genie" />
+    <item drawable="appicon_com_motorola_myscreen" package="PackageInfo{com.motorola.myscreen}" />
+    <item drawable="appicon_com_motorola_timeweatherwidget" package="PackageInfo{com.motorola.timeweatherwidget}" />
+    <item component="ComponentInfo{com.motorola.cn.calendar/com.motorola.plugins.TripPlugin}" drawable="appicon_com_motorola_cn_calendar_tripplugin" />
+    <item component="ComponentInfo{com.motorola.cn.smartservice/com.motorola.plugins.SmartExpressPlugin}" drawable="appicon_com_motorola_cn_smartservice_smartexpressplugin" />
+    <item component="ComponentInfo{com.motorola.cn.smartservice/com.motorola.plugins.CommuteSuggestionsPlugin}" drawable="appicon_com_motorola_cn_smartservice_commutesuggestionsplugin" />
+    <item component="ComponentInfo{com.sina.weibo/com.sina.weibo.VisitorMainTabActivity}" drawable="appicon_com_sina_weibo" />
+    <item component="ComponentInfo{cn.kuwo.player/cn.kuwo.player.activities.MainActivity}" drawable="appicon_cn_kuwo_player" />
+    <item component="ComponentInfo{com.UCMobile/com.uc.browser.InnerUCMobile}" drawable="appicon_com_ucmobile" />
+    <item component="ComponentInfo{com.UCMobile/com.UCMobile.main.UCMobile}" drawable="appicon_com_ucmobile" />
+    <item component="ComponentInfo{com.qiyi.video/com.qiyi.video.WelcomeActivity}" drawable="appicon_com_qiyi_video" />
+    <item component="ComponentInfo{com.moji.mjweather/com.moji.mjweather.LauncherActivity}" drawable="appicon_com_moji_mjweather" />
+    <item component="ComponentInfo{com.achievo.vipshop/com.achievo.vipshop.homepage.activity.MainActivity}" drawable="appicon_com_achievo_vipshop" />
+    <item component="ComponentInfo{com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity}" drawable="appicon_com_autonavi_minimap" />
+    <item component="ComponentInfo{com.tencent.qqlive/com.tencent.qqlive.ona.activity.SplashHomeActivity}" drawable="appicon_com_tencent_qqlive" />
+    <item component="ComponentInfo{com.ss.android.article.news/com.ss.android.article.news.activity.MainActivity}" drawable="appicon_com_ss_android_article_news" />
+    <item component="ComponentInfo{com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="appicon_com_ss_android_ugc_aweme" />
+    <item component="ComponentInfo{com.baidu.searchbox/com.baidu.searchbox.MainActivity}" drawable="appicon_com_baidu_searchbox" />
+    <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.MainActivityV2}" drawable="appicon_tv_danmaku_bilis" />
+    <item component="ComponentInfo{com.taobao.taobao/com.taobao.tao.TBMainActivity}" drawable="appicon_com_taobao_taobao" />
+    <item component="ComponentInfo{com.tencent.news/com.tencent.news.activity.SplashActivity}" drawable="appicon_com_tencent_news" />
+    <item component="ComponentInfo{ctrip.android.view/ctrip.android.publicproduct.home.view.CtripHomeActivity}" drawable="appicon_ctrip_android_view" />
+    <item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.MainActivity}" drawable="appicon_com_ximalaya_ting_android" />
+    <item component="ComponentInfo{com.cmic.mmnes/com.cmic.mmnes.activity.MainActivity}" drawable="appicon_com_cmic_mmnes" />
+    <item component="ComponentInfo{com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.view.tabs.AppTabFragment}" drawable="appicon_com_greenpoint_android_mc10086_activity" />
+    <item component="ComponentInfo{mail139.launcher/mail139.launcher.ui.activitys.FirstUsedActivity}" drawable="appicon_mail139_launcher" />
+    <item component="ComponentInfo{cn.cj.pe/cn.cj.pe.activity.MessageList}" drawable="appicon_cn_cj_pe" />
+    <item component="ComponentInfo{com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin}" drawable="appicon_com_eg_android_alipaygphone" />
+    <item component="ComponentInfo{com.zui.browser/com.lenovo.browser.LeMainActivity}" drawable="appicon_com_zui_browser" />
+    <item component="ComponentInfo{cn.emagsoftware.gamehall/cn.emagsoftware.gamehall.ui.activity.home.HomeActivity}" drawable="appicon_cn_emagsoftware_gamehall" />
+    <item component="ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.activity.SmartWeatherActivity}" drawable="appicon_com_icoolme_android_weather" />
+    <item component="ComponentInfo{com.ysxsoft.lock2/com.neighbour.ui.HomePageNewActivity}" drawable="appicon_com_ysxsoft_lock2" />
+    <item component="ComponentInfo{com.sankuai.meituan/com.meituan.android.pt.homepage.activity.MainActivity}" drawable="appicon_com_sankuai_meituan" />
+    <item component="ComponentInfo{com.lenovo.leos.appstore/com.lenovo.leos.appstore.activities.Main}" drawable="appicon_com_lenovo_leos_appstores" />
+    <item component="ComponentInfo{com.tyyd.video/com.tyyd.yunvr.module.HomeActivity}" drawable="appicon_com_tyyd_video" />
+    <item component="ComponentInfo{com.ct.client/com.ct.client.MainActivity}" drawable="appicon_com_ct_client" />
+    <item component="ComponentInfo{com.ctg.itrdc.cloudphone/com.ctg.itrdc.clouddesk.main.MainActivity}" drawable="appicon_com_ctg_itrdc_cloudphone" />
+    <item component="ComponentInfo{cn.egame.terminal.cloud5g/cn.egame.terminal.cloud5g.app.ui.init.CloudMainActivity}" drawable="appicon_cn_egame_terminal_cloud5g" />
+    <item component="ComponentInfo{com.zui.zhealthy/com.zui.zhealthy.SplashActivity}" drawable="appicon_com_zui_zhealthy" />
+    <item component="ComponentInfo{com.motorola.cn.healthy/com.motorola.cn.healthy.newpage.NewMainActivity}" drawable="appicon_com_motorola_cn_healthy" />
+    <item component="ComponentInfo{com.lenovo.leos.cloud.sync/com.lenovo.leos.cloud.sync.UIv5.MainV5Activity}" drawable="appicon_com_lenovo_leos_cloud_sync" />
+    <item component="ComponentInfo{com.chinamobile.mcloud/com.chinamobile.mcloud.client.ui.MenuActivityy}" drawable="appicon_com_chinamobile_mcloud" />
+    <item component="ComponentInfo{com.motorola.stylus/com.motorola.stylus.manager.NoteManagerActivity}" drawable="appicon_com_motorola_stylus" />
+    <item component="ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}" drawable="appicon_com_tencent_mm" />
+    <item component="ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.MainFrameActivity}" drawable="appicon_com_jingdong_app_mall" />
+    <item component="ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}" drawable="appicon_com_tencent_mobileqq" />
+    <item component="ComponentInfo{com.cmcc.cmvideo/com.cmcc.cmvideo.splash.SplashActivity}" drawable="appicon_com_cmcc_cmvideo" />
+    <item component="ComponentInfo{com.android.stk/com.android.stk.StkMenuActivity}" drawable="appicon_com_android_stk" />
+    <item component="ComponentInfo{com.motorola.cn.voicetranslation/com.motorola.cn.voicetranslation.LiveCaptureActivity}" drawable="appicon_com_motorola_cn_voicetranslation" />
+    <item component="ComponentInfo{com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.guide.SettingGuideActivity}" drawable="appicon_com_sohu_inputmethod_sogou" />
+    <item component="ComponentInfo{com.netease.mail/com.netease.mobimail.SplashActivity}" drawable="appicon_com_netease_mail" />
+    <item component="ComponentInfo{com.motorola.cn.wallet/com.motorola.cn.wallet.MainActivity}" drawable="appicon_com_motorola_cn_wallet" />
+    <item component="ComponentInfo{com.motorola.gamemode/com.motorola.gamemode.ui.launcher.main.GameCenterActivity}" drawable="appicon_com_motorola_gamemode" />
+    <item component="ComponentInfo{com.motorola.dolby.dolbyui/com.motorola.dolby.dolbyui.ui.welcome.WelcomeActivity}" drawable="appicon_com_motorola_dolby_dolbyui" />
+    <item component="ComponentInfo{com.motorola.moto.overlay.personalizelauncher/com.motorola.moto.overlay.personalizelauncher.LauncherActivity}" drawable="appicon_com_motorola_moto_personalize" />
+    <item component="ComponentInfo{com.motorola.cn.searchintelligence/com.motorola.cn.searchintelligence.SearchableActivity}" drawable="appicon_com_motorola_cn_searchintelligence" />
+    <item component="ComponentInfo{com.motorola.mobiledesktop/com.motorola.mobiledesktop.desktop.welcome.WelcomeActivity}" drawable="appicon_com_motorola_mobiledesktop" />
+    <item component="ComponentInfo{com.motorola.cn.devicemigration/com.motorola.cn.devicemigration.common.MainActivity}" drawable="appicon_com_motorola_cn_devicemigration" />
+    <item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen}" drawable="appicon_com_baidu_baidumap" />
+    <item component="ComponentInfo{com.youku.phone/com.youku.phone.ActivityWelcome}" drawable="appicon_com_youku_phone" />
+    <item component="ComponentInfo{io.dushu.fandengreader/io.dushu.app.main.DefaultLauncher}" drawable="appicon_io_dushu_fandengreader" />
+    <item component="ComponentInfo{com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.WelcomeActivity}" drawable="appicon_com_chaozh_ireaderfree" />
+    <item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="appicon_cn_wps_moffice_eng" />
+    <item component="ComponentInfo{com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity}" drawable="appicon_com_smile_gifmaker" />
+    <item component="ComponentInfo{com.lenovo.motorola.argus.camera/com.lenovo.motorola.argus.camera.CameraLauncher}" drawable="appicon_com_lenovo_motorola_argus_camera" />
+    <item component="ComponentInfo{com.motorola.cn.dicegame/com.motorola.cn.dicegame.AndroidLauncher}" drawable="appicon_com_motorola_cn_dicegame" />
+    <item component="ComponentInfo{com.midea.ai.appliances/com.midea.meiju.welcome.WelcomeActivityMeiJu}" drawable="appicon_com_midea_meiju" />
+    <item component="ComponentInfo{com.smzdm.client.android/com.smzdm.client.android.app.WelcomeActivity}" drawable="appicon_com_smzdm" />
+    <item component="ComponentInfo{cn.gov.pbc.dcep/com.alipay.mobile.quinox.LauncherActivity}" drawable="appicon_cn_gov_pbc_dcep" />
+    <item component="ComponentInfo{com.x7890.shortcutcreator/com.x7890.shortcutcreator.AppListActivity}" drawable="appicon_com_x7890_shortcutcreator" />
+    <item component="ComponentInfo{com.smk/com.smk.activity.LaunchActivity}" drawable="appicon_com_smk" />
+    <item component="ComponentInfo{com.heytap.headset/com.heytap.headset.component.startup.StartupActivity}" drawable="appicon_com_heytap_headset" />
+    <item component="ComponentInfo{cmb.pb/cmb.pb.app.mainframe.container.PBManinActivity}" drawable="appicon_cmb_pb" />
+    <item component="ComponentInfo{com.taobao.etao/com.taobao.sns.activity.LaunchActivity}" drawable="appicon_com_taobao_etao" />
+    <item component="ComponentInfo{com.lvman/com.lvman.activity.login.WelcomeActivity}" drawable="appicon_com_lvman" />
+    <item component="ComponentInfo{com.bytedance.seal/com.bytedance.wga.activity.SplashActivity}" drawable="appicon_com_bytedance_seal" />
+    <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="appicon_com_microsoft_office" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="appicon_com_microsoft_office_outlook" />
+    <item component="ComponentInfo{com.mobvoi.baiding/com.mobvoi.assistant.ui.splash.SplashActivity}" drawable="appicon_com_mobvoi_baiding" />
+    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="appicon_com_microsoft_todos" />
+    <item component="ComponentInfo{com.coolapk.market/com.coolapk.market.view.main.MainActivity}" drawable="appicon_com_coolapk_market"/>
+    <item component="ComponentInfo{com.tencent.weread/com.tencent.weread.LauncherActivity}" drawable="appicon_com_tencent_weread"/>
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="appicon_org_telegram_messenger"/>
+    <item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="appicon_home_assistant"/>
+    <item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="appicon_com_aurora_store"/>
+    <item component="ComponentInfo{com.xiaomi.smarthome/com.xiaomi.smarthome.SmartHomeMainActivity}" drawable="appicon_com_xiaomi_smarthome"/>
+    <item component="ComponentInfo{com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity}" drawable="appicon_com_taobao_idlefish"/>
+    <item component="ComponentInfo{com.v2ray.ang/com.v2ray.ang.ui.MainActivity}" drawable="appicon_com_v2ray_ang"/>
+    <item component="ComponentInfo{com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.ui.activity.MainFrameActivity}" drawable="appicon_com_xunmeng_pinduoduo"/>
+    <item component="ComponentInfo{com.tuya.smartlifeiot/com.smart.TuyaSplashActivity}" drawable="ic_com_tuya_smartlifeiot"/>
+    <item component="ComponentInfo{com.ss.android.lark/com.ss.android.lark.main.app.MainActivity}" drawable="appicon_com_ss_android_lark"/>
+    <item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="appicon_com_unionpay"/>
+    <preview drawable="card_vertical" orientation="vertical" />
+    <preview drawable="card_horizontal" orientation="landscape" />
+</resources>

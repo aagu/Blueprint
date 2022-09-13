@@ -3,21 +3,18 @@
 
     <!-- Make sure to put at least 8 icons -->
     <string-array name="icons_preview">
-        <item>adaptive_one</item>
-        <item>adaptive_two</item>
-        <item>adaptive_three</item>
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
+        <item>appicon_com_android_dialer</item>
+        <item>appicon_com_motorola_cn_notes</item>
+        <item>appicon_com_android_settings</item>
+        <item>appicon_com_android_contacts</item>
+        <item>appicon_com_android_messaging</item>
+        <item>appicon_com_motorola_gamemode</item>
+        <item>appicon_com_microsoft_office</item>
+        <item>appicon_com_microsoft_office_outlook</item>
+        <item>appicon_com_microsoft_todos</item>
+        <item>appicon_com_ss_android_lark</item>
+        <item>appicon_com_unionpay</item>
+        <item>appicon_com_coolapk_market</item>
     </string-array>
 
     <!-- These sections below are for your "Previews" section -->
@@ -27,79 +24,196 @@
     <!-- Make sure the filters names are the same as the other arrays -->
     <string-array name="icon_filters">
         <item>all</item>
-        <item>adaptive</item>
-        <item>amber</item>
-        <item>blue</item>
-        <item>purple</item>
-        <item>red</item>
-        <item>circles</item>
-        <item>rectangles</item>
-        <item>squares</item>
+        <item>newly</item>
+        <item>dynamic</item>
     </string-array>
 
     <string-array name="all">
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
+        <item>appicon_calendar_1</item>
+        <item>appicon_calendar_10</item>
+        <item>appicon_calendar_11</item>
+        <item>appicon_calendar_12</item>
+        <item>appicon_calendar_13</item>
+        <item>appicon_calendar_14</item>
+        <item>appicon_calendar_15</item>
+        <item>appicon_calendar_16</item>
+        <item>appicon_calendar_17</item>
+        <item>appicon_calendar_18</item>
+        <item>appicon_calendar_19</item>
+        <item>appicon_calendar_2</item>
+        <item>appicon_calendar_20</item>
+        <item>appicon_calendar_21</item>
+        <item>appicon_calendar_22</item>
+        <item>appicon_calendar_23</item>
+        <item>appicon_calendar_24</item>
+        <item>appicon_calendar_25</item>
+        <item>appicon_calendar_26</item>
+        <item>appicon_calendar_27</item>
+        <item>appicon_calendar_28</item>
+        <item>appicon_calendar_29</item>
+        <item>appicon_calendar_3</item>
+        <item>appicon_calendar_30</item>
+        <item>appicon_calendar_31</item>
+        <item>appicon_calendar_4</item>
+        <item>appicon_calendar_5</item>
+        <item>appicon_calendar_6</item>
+        <item>appicon_calendar_7</item>
+        <item>appicon_calendar_8</item>
+        <item>appicon_calendar_9</item>
+        <item>appicon_clock</item>
+        <item>appicon_cmb_pb</item>
+        <item>appicon_cn_cj_pe</item>
+        <item>appicon_cn_egame_terminal_cloud5g</item>
+        <item>appicon_cn_emagsoftware_gamehall</item>
+        <item>appicon_cn_gov_pbc_dcep</item>
+        <item>appicon_cn_kuwo_player</item>
+        <item>appicon_cn_wps_moffice_eng</item>
+        <item>appicon_com_achievo_vipshop</item>
+        <item>appicon_com_android_contacts</item>
+        <item>appicon_com_android_dialer</item>
+        <item>appicon_com_android_messaging</item>
+        <item>appicon_com_android_settings</item>
+        <item>appicon_com_android_stk</item>
+        <item>appicon_com_autonavi_minimap</item>
+        <item>appicon_com_baidu_baidumap</item>
+        <item>appicon_com_baidu_searchbox</item>
+        <item>appicon_com_bytedance_seal</item>
+        <item>appicon_com_chaozh_ireaderfree</item>
+        <item>appicon_com_chinamobile_mcloud</item>
+        <item>appicon_com_cmcc_cmvideo</item>
+        <item>appicon_com_cmic_mmnes</item>
+        <item>appicon_com_ctg_itrdc_cloudphone</item>
+        <item>appicon_com_ct_client</item>
+        <item>appicon_com_eg_android_alipaygphone</item>
+        <item>appicon_com_greenpoint_android_mc10086_activity</item>
+        <item>appicon_com_heytap_headset</item>
+        <item>appicon_com_icoolme_android_weather</item>
+        <item>appicon_com_jingdong_app_mall</item>
+        <item>appicon_com_lenovotab_health</item>
+        <item>appicon_com_lenovo_club_app</item>
+        <item>appicon_com_lenovo_leos_appstores</item>
+        <item>appicon_com_lenovo_leos_cloud_sync</item>
+        <item>appicon_com_lenovo_menu_assistant</item>
+        <item>appicon_com_lenovo_motorola_argus_camera</item>
+        <item>appicon_com_lvman</item>
+        <item>appicon_com_microsoft_office</item>
+        <item>appicon_com_microsoft_office_outlook</item>
+        <item>appicon_com_microsoft_todos</item>
+        <item>appicon_com_midea_meiju</item>
+        <item>appicon_com_mobvoi_baiding</item>
+        <item>appicon_com_moji_mjweather</item>
+        <item>appicon_com_motorola_camera3</item>
+        <item>appicon_com_motorola_cn_calculator</item>
+        <item>appicon_com_motorola_cn_calendar_tripplugin</item>
+        <item>appicon_com_motorola_cn_compass</item>
+        <item>appicon_com_motorola_cn_devicemigration</item>
+        <item>appicon_com_motorola_cn_dicegame</item>
+        <item>appicon_com_motorola_cn_gallery</item>
+        <item>appicon_com_motorola_cn_healthy</item>
+        <item>appicon_com_motorola_cn_lrhealth</item>
+        <item>appicon_com_motorola_cn_notes</item>
+        <item>appicon_com_motorola_cn_prcsettingsext_lockscreen</item>
+        <item>appicon_com_motorola_cn_recorder</item>
+        <item>appicon_com_motorola_cn_searchintelligence</item>
+        <item>appicon_com_motorola_cn_smartservice_commutesuggestionsplugin</item>
+        <item>appicon_com_motorola_cn_smartservice_smartexpressplugin</item>
+        <item>appicon_com_motorola_cn_voicetranslation</item>
+        <item>appicon_com_motorola_cn_wallet</item>
+        <item>appicon_com_motorola_deviceguard</item>
+        <item>appicon_com_motorola_dolby_dolbyui</item>
+        <item>appicon_com_motorola_gamemode</item>
+        <item>appicon_com_motorola_genie</item>
+        <item>appicon_com_motorola_mobiledesktop</item>
+        <item>appicon_com_motorola_moto</item>
+        <item>appicon_com_motorola_moto_personalize</item>
+        <item>appicon_com_motorola_myscreen</item>
+        <item>appicon_com_motorola_stylus</item>
+        <item>appicon_com_motorola_timeweatherwidget</item>
+        <item>appicon_com_netease_mail</item>
+        <item>appicon_com_qiyi_video</item>
+        <item>appicon_com_sankuai_meituan</item>
+        <item>appicon_com_sina_weibo</item>
+        <item>appicon_com_smile_gifmaker</item>
+        <item>appicon_com_smk</item>
+        <item>appicon_com_smzdm</item>
+        <item>appicon_com_sohu_inputmethod_sogou</item>
+        <item>appicon_com_ss_android_article_news</item>
+        <item>appicon_com_ss_android_ugc_aweme</item>
+        <item>appicon_com_taobao_etao</item>
+        <item>appicon_com_taobao_taobao</item>
+        <item>appicon_com_tencent_mm</item>
+        <item>appicon_com_tencent_mobileqq</item>
+        <item>appicon_com_tencent_news</item>
+        <item>appicon_com_tencent_qqlive</item>
+        <item>appicon_com_tyyd_video</item>
+        <item>appicon_com_ucmobile</item>
+        <item>appicon_com_x7890_shortcutcreator</item>
+        <item>appicon_com_ximalaya_ting_android</item>
+        <item>appicon_com_youku_phone</item>
+        <item>appicon_com_ysxsoft_lock2</item>
+        <item>appicon_com_zui_browser</item>
+        <item>appicon_com_zui_filemanager</item>
+        <item>appicon_com_zui_zhealthy</item>
+        <item>appicon_ctrip_android_view</item>
+        <item>appicon_io_dushu_fandengreader</item>
+        <item>appicon_mail139_launcher</item>
+        <item>appicon_tv_danmaku_bilis</item>
+        <item>appicon_com_coolapk_market</item>
+        <item>appicon_com_tencent_weread</item>
+        <item>appicon_org_telegram_messenger</item>
+        <item>appicon_home_assistant</item>
+        <item>appicon_com_aurora_store</item>
+        <item>appicon_com_xiaomi_smarthome</item>
     </string-array>
 
-    <string-array name="adaptive">
-        <item>adaptive_one</item>
-        <item>adaptive_two</item>
-        <item>adaptive_three</item>
+    <string-array name="dynamic">
+        <item>appicon_calendar_1</item>
+        <item>appicon_calendar_10</item>
+        <item>appicon_calendar_11</item>
+        <item>appicon_calendar_12</item>
+        <item>appicon_calendar_13</item>
+        <item>appicon_calendar_14</item>
+        <item>appicon_calendar_15</item>
+        <item>appicon_calendar_16</item>
+        <item>appicon_calendar_17</item>
+        <item>appicon_calendar_18</item>
+        <item>appicon_calendar_19</item>
+        <item>appicon_calendar_2</item>
+        <item>appicon_calendar_20</item>
+        <item>appicon_calendar_21</item>
+        <item>appicon_calendar_22</item>
+        <item>appicon_calendar_23</item>
+        <item>appicon_calendar_24</item>
+        <item>appicon_calendar_25</item>
+        <item>appicon_calendar_26</item>
+        <item>appicon_calendar_27</item>
+        <item>appicon_calendar_28</item>
+        <item>appicon_calendar_29</item>
+        <item>appicon_calendar_3</item>
+        <item>appicon_calendar_30</item>
+        <item>appicon_calendar_31</item>
+        <item>appicon_calendar_4</item>
+        <item>appicon_calendar_5</item>
+        <item>appicon_calendar_6</item>
+        <item>appicon_calendar_7</item>
+        <item>appicon_calendar_8</item>
+        <item>appicon_calendar_9</item>
+        <item>appicon_clock</item>
     </string-array>
 
-    <string-array name="amber">
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
+    <string-array name="newly">
+        <item>appicon_com_coolapk_market</item>
+        <item>appicon_com_tencent_weread</item>
+        <item>appicon_org_telegram_messenger</item>
+        <item>appicon_home_assistant</item>
+        <item>appicon_com_aurora_store</item>
+        <item>appicon_com_xiaomi_smarthome</item>
+        <item>appicon_com_taobao_idlefish</item>
+        <item>appicon_com_v2ray_ang</item>
+        <item>appicon_com_xunmeng_pinduoduo</item>
+        <item>ic_com_tuya_smartlifeiot</item>
+        <item>appicon_com_ss_android_lark</item>
+        <item>appicon_com_unionpay</item>
     </string-array>
 
-    <string-array name="blue">
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
-    </string-array>
-
-    <string-array name="purple">
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
-    </string-array>
-
-    <string-array name="red">
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
-    </string-array>
-
-    <string-array name="circles">
-        <item>amber_circle</item>
-        <item>blue_circle</item>
-        <item>purple_circle</item>
-        <item>red_circle</item>
-    </string-array>
-
-    <string-array name="rectangles">
-        <item>amber_rectangle</item>
-        <item>blue_rectangle</item>
-        <item>purple_rectangle</item>
-        <item>red_rectangle</item>
-    </string-array>
-
-    <string-array name="squares">
-        <item>amber_square</item>
-        <item>blue_square</item>
-        <item>purple_square</item>
-        <item>red_square</item>
-    </string-array>
 </resources>

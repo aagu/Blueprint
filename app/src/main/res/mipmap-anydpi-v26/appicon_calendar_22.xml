@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_calendar_back" />
+    <foreground>
+        <layer-list>
+            <item android:drawable="@mipmap/ic_launcher_calendar_front" />
+            <item android:drawable="@mipmap/ic_launcher_calendar_22_front" />
+        </layer-list>
+    </foreground>
+</adaptive-icon>

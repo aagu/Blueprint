@@ -49,11 +49,11 @@ android {
                 onesignal_app_id               : OneSignal.appId,
                 onesignal_google_project_number: OneSignal.googleProjectNumber
         ]
-        applicationId Blueprint.appId
+        applicationId MyApp.appId
         minSdkVersion Versions.minSdk
         targetSdkVersion Versions.targetSdk
-        versionCode Blueprint.version
-        versionName Blueprint.versionName
+        versionCode MyApp.version
+        versionName MyApp.versionName
         setProperty("archivesBaseName", applicationId + "-" + versionName)
         vectorDrawables.useSupportLibrary = true
         proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
