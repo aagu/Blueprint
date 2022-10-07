@@ -164,6 +164,18 @@
         <item>appicon_home_assistant</item>
         <item>appicon_com_aurora_store</item>
         <item>appicon_com_xiaomi_smarthome</item>
+        <item>appicon_com_taobao_idlefish</item>
+        <item>appicon_com_v2ray_ang</item>
+        <item>appicon_com_xunmeng_pinduoduo</item>
+        <item>appicon_com_tuya_smartlifeiot</item>
+        <item>appicon_com_ss_android_lark</item>
+        <item>appicon_com_unionpay</item>
+        <item>appicon_com_xydc</item>
+        <item>appicon_com_google_android_wearable_app</item>
+        <item>appicon_com_kiwibrowser_browser</item>
+        <item>appicon_com_deepl_mobiletranslator</item>
+        <item>appicon_code_name_monkey_retromusic</item>
+        <item>appicon_com_microsoft_emmx</item>
     </string-array>
 
     <string-array name="dynamic">
@@ -211,9 +223,15 @@
         <item>appicon_com_taobao_idlefish</item>
         <item>appicon_com_v2ray_ang</item>
         <item>appicon_com_xunmeng_pinduoduo</item>
-        <item>ic_com_tuya_smartlifeiot</item>
+        <item>appicon_com_tuya_smartlifeiot</item>
         <item>appicon_com_ss_android_lark</item>
         <item>appicon_com_unionpay</item>
+        <item>appicon_com_xydc</item>
+        <item>appicon_com_google_android_wearable_app</item>
+        <item>appicon_com_kiwibrowser_browser</item>
+        <item>appicon_com_deepl_mobiletranslator</item>
+        <item>appicon_code_name_monkey_retromusic</item>
+        <item>appicon_com_microsoft_emmx</item>
     </string-array>
 
 </resources>

@@ -130,7 +130,14 @@
     <item component="ComponentInfo{com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity}" drawable="appicon_com_taobao_idlefish"/>
     <item component="ComponentInfo{com.v2ray.ang/com.v2ray.ang.ui.MainActivity}" drawable="appicon_com_v2ray_ang"/>
     <item component="ComponentInfo{com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.ui.activity.MainFrameActivity}" drawable="appicon_com_xunmeng_pinduoduo"/>
-    <item component="ComponentInfo{com.tuya.smartlifeiot/com.smart.TuyaSplashActivity}" drawable="ic_com_tuya_smartlifeiot"/>
+    <item component="ComponentInfo{com.tuya.smartlifeiot/com.smart.TuyaSplashActivity}" drawable="appicon_com_tuya_smartlifeiot"/>
     <item component="ComponentInfo{com.ss.android.lark/com.ss.android.lark.main.app.MainActivity}" drawable="appicon_com_ss_android_lark"/>
     <item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="appicon_com_unionpay"/>
+    <item component="ComponentInfo{com.xydc/com.xydc.MainActivity}" drawable="appicon_com_xydc"/>
+    <item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.launcher.LauncherActivity}" drawable="appicon_com_google_android_wearable_app"/>
+    <item component="ComponentInfo{com.google.android.wearable.app.cn/com.google.android.clockwork.companion.launcher.LauncherActivity}" drawable="appicon_com_google_android_wearable_app"/>
+    <item component="ComponentInfo{com.kiwibrowser.browser/com.google.android.apps.chrome.Main}" drawable="appicon_com_kiwibrowser_browser"/>
+    <item component="ComponentInfo{com.deepl.mobiletranslator/com.deepl.mobiletranslator.MainActivity}" drawable="appicon_com_deepl_mobiletranslator"/>
+    <item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="appicon_code_name_monkey_retromusic"/>
+    <item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="appicon_com_microsoft_emmx"/>
 </resources>

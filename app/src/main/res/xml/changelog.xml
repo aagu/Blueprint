@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <version title="v1.0.0" />
-    <item text="Initial Changelog" />
-    <item text="" /> <!-- this one is empty and therefore ignored -->
+    <version title="v1.1.0" />
+    <item text="Add Some new icons" />
+    <item text="Remove wallpapers section" />
 </resources>
